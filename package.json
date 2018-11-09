@@ -1,0 +1,31 @@
+{
+  "name": "juyuan-cli",
+  "version": "1.0.0",
+  "description": "聚源脚手架",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "juyuan-cli": "bin/juyuan-cli"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sparkinzy/juyuan-cli.git"
+  },
+  "keywords": [
+    "脚手架"
+  ],
+  "author": "sparkinzy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Sparkinzy/juyuan-cli/issues"
+  },
+  "homepage": "https://github.com/Sparkinzy/juyuan-cli#readme",
+  "dependencies": {
+    "chalk": "^2.4.1",
+    "co": "^4.6.0",
+    "co-prompt": "^1.0.0",
+    "commander": "^2.19.0"
+  }
+}

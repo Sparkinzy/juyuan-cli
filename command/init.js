@@ -9,7 +9,7 @@ module.exports = () => {
     co(function *(){
         // 处理用户输入
         let tplName = yield prompt('Template name(gulp): ') || 'gulp';
-        let projectName = yield prompt('Project name:');
+        let projectName = yield prompt('Project name(assets):') || 'assets';
         let gitUrl
         let branch
 
